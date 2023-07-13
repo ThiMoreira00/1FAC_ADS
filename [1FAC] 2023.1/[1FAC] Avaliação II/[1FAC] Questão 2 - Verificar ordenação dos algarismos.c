@@ -15,7 +15,6 @@ void main() {
 int verificarCrescente (int n) {
 	
 	int anterior, resto;
-	int numero = n;
 	
 	if(n < 10) {
 		return 1;
