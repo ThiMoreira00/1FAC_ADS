@@ -1,40 +1,37 @@
 #include <stdio.h>
 
-void funcione (int vetorA[], int tamanhoA, int vetorB[], int tamanhoB, int resultado[], int tamanhoResultado);
 void exibirVetor (int vetor[], int tamanho);
+void somarVetores (int vetorA[], int tamanhoA, int vetorB[], int tamanhoB, int resultado[], int tamanhoResultado);
 
 void main() {
 	
-	int vetorA[3] = {7, 3, 2};
-	int vetorB[3] = {5, 3, 9};
-	int resultado[4];
+	int vetorA[3] = {1, 8, 3};
+	int vetorB[3] = {2, 0, 9};
+	int resultado[3] = {0, 0, 0};
 	
-	funcione(vetorA, 3, vetorB, 3, resultado, 4);
+	somarVetores(vetorA, 3, vetorB, 3, resultado, 3);
 	
 	exibirVetor(vetorA, 3);
 	exibirVetor(vetorB, 3);
-	exibirVetor(resultado, 4);
+	exibirVetor(resultado, 3);
 }
 
-void funcione (int vetorA[], int tamanhoA, int vetorB[], int tamanhoB, int resultado[], int tamanhoResultado) {
+void somarVetores (int vetorA[], int tamanhoA, int vetorB[], int tamanhoB, int resultado[], int tamanhoResultado) {
 	
-	int i, j;
-	int aux, var;
+	int i, j, soma, resto;
 	
-	for(i=0;i<tamanhoA;i++) {
-		resultado[i] = vetorA[i] + vetorB[i];
-	}
-	
-	
-	for(i=0;i<tamanhoA;i++) {
+	for(i=tamanhoA-1,j=tamanhoResultado-1;i>=0;i--,j--) {
 		
-		if(resultado[i] > 9) {
-			
-			var = resultado[i] - 10;
-			resultado[i] = 1;
-			resultado[i+1] = var;
+		soma = vetorA[i] + vetorB[i];
+		if(soma > 9) {
+			resto = soma - 10;
+			resultado[j] += resto;
+			resultado[j-1]++;
 		}
-	}
+		else {
+			resultado[j] += soma;	
+		}	
+	}		
 }
 
 void exibirVetor (int vetor[], int tamanho) {
