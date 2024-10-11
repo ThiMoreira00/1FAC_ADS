@@ -7,7 +7,7 @@ Repositório destinado às atividades e avaliações práticas da matéria Funda
 
 
 ## Listas de Exercícios
-* [Lista de Exercício I](https://github.com/ThiMoreira00/1FAC_ADS/tree/main/Lista%20de%20Exerc%C3%ADcios%20I)
+* [Lista de Exercícios I](https://github.com/ThiMoreira00/1FAC_ADS/tree/main/Lista%20de%20Exerc%C3%ADcios%20I)
 
     - [Exercício 1](https://github.com/ThiMoreira00/1FAC_ADS/blob/main/Lista%20de%20Exerc%C3%ADcios%20I/Lista1_Exerc%C3%ADcio1.c) - Cálculo do custo do consumidor de um carro
     - [Exercício 2](https://github.com/ThiMoreira00/1FAC_ADS/blob/main/Lista%20de%20Exerc%C3%ADcios%20I/Lista1_Exerc%C3%ADcio2.c) - Classificação de categoria de um nadador
