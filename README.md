@@ -14,3 +14,5 @@ Repositório destinado às atividades e avaliações práticas da matéria Funda
     - [Exercício 3](https://github.com/ThiMoreira00/1FAC_ADS/blob/main/Lista%20de%20Exerc%C3%ADcios%20I/Lista1_Exerc%C3%ADcio3.c) - Cálculo do peso ideal de uma pessoa, de acordo com o gênero e altura
     - [Exercício 4](https://github.com/ThiMoreira00/1FAC_ADS/blob/main/Lista%20de%20Exerc%C3%ADcios%20I/Lista1_Exerc%C3%ADcio4.c) - Cálculo do valor do crédito de acordo com o salário
     - [Exercício 5](https://github.com/ThiMoreira00/1FAC_ADS/blob/main/Lista%20de%20Exerc%C3%ADcios%20I/Lista1_Exerc%C3%ADcio5.c) - Cálculo do menor número de notas e moedas decomposto por um valor
+    - [Exercício 6](https://github.com/ThiMoreira00/1FAC_ADS/blob/main/Lista%20de%20Exerc%C3%ADcios%20I/Lista1_Exerc%C3%ADcio6.c) - Cálculo da ordem de uma data (dia e mês) do ano
+    - [Exercício 7](https://github.com/ThiMoreira00/1FAC_ADS/blob/main/Lista%20de%20Exerc%C3%ADcios%20I/Lista1_Exerc%C3%ADcio7.c) - Cálculo do salário semanal de um funcionário (condicionado a um adicional)
